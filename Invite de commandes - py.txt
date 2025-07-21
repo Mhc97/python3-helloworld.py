@@ -1,0 +1,39 @@
+Microsoft Windows [version 10.0.26100.2454]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\srifi>py
+Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> nourriture_preferee = "Glace"
+>>> nouvelle_nourriture_preferee = "Pizza"
+>>> nourriture_preferee = "Pâtes"
+>>> print(nourriture_preferee)
+Pâtes
+>>> nom = "Uchiwa"
+>>> age = "60"
+>>> print(f"Bonjour, je m'appelle{nom} et j'ai {age}age.+10")
+Bonjour, je m'appelleUchiwa et j'ai 60age.+10
+>>> nom = "Itachi"
+>>> age = "21"
+>>> age2 = "10"
+>>> print(je m'appelle{nom} "et j'ai " + str(age)+(age2) +"ans.")
+  File "<python-input-10>", line 1
+    print(je m'appelle{nom} "et j'ai " + str(age)+(age2) +"ans.")
+                                                               ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> nom = "Jean"
+>>>
+>>>
+>>> mm
+Traceback (most recent call last):
+  File "<python-input-14>", line 1, in <module>
+    mm
+NameError: name 'mm' is not defined
+>>> nom = "Itachi"
+>>> age = 21
+>>> print(f"Je m'appelle {nom} et j'ai {age} ans.")
+Je m'appelle Itachi et j'ai 21 ans.
+>>> age=(age)+10
+>>> print(f"Je m'appelle {nom} et j'ai {age} ans maintenant.")
+Je m'appelle Itachi et j'ai 31 ans maintenant.
+>>>
